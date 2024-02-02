@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.entrada_grupo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.entrada_grupo label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+}
+
+button{
+    font-size: 22px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: #E6E6FA;
+    cursor: pointer;
+}
+
+.saida_grupo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .saida_grupo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #message {
+    font-size: 14px;
+    color: #4caf50;
+    margin-top: 10px;
+    text-align: center;
+  }
